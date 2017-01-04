@@ -1,0 +1,11 @@
+<%= form_for :url, url: url_path do |f| %>
+
+  <p>
+    <%= f.label :short_url %>
+    <%= f.text_field :short_url %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
